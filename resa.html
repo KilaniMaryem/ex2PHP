@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>FORMULAIRE</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="resa.php" method="POST" enctype="multipart/form-data">
+            NOM <input type="text" name="nom"><br><br>
+            PRENOM <input type="text" name="prenom"><br><br>
+            NBRE DE SANDWICHS <input type="number" name="nombre"><br><br>
+            ADRESSE <textarea name="adresse">Ecrivez ici votre adresse </textarea><br><br>
+            <select name="options" >
+                <option value="viande">Viande</option>
+                <option value="poulet">Poulet</option>
+                <option value="poisson">Poisson</option>
+            </select><br><br>
+            <input type="checkbox" name='harissa' value="harissa">harissa
+            <input type="checkbox" name='salade' value="salade">salade
+            <input type="checkbox" name='mayo'value="mayo">mayo<br><br>
+            <input type="file" name="cin"><br><br>
+            <input type="submit" value="envoyer">
+        </form>
+    </body>
+</html>
